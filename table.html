@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20231219_테이블</title>
+</head>
+<body>
+
+    <table border="1">
+       <tr>
+            <td rowspan="4">중간고사 성적</td>
+       </tr>    
+       <tr>
+            <td>국어</td>
+            <td>영어</td>
+            <td>수학</td>
+       </tr>
+       <tr>
+            <td>100</td>
+            <td>70</td>
+            <td>60</td>
+       </tr>
+       <tr>
+            <td colspan="2">평균</td>
+            <td>80</td>
+       </tr>
+    </table>
+
+  <h3>Cell that spans two columns</h3>
+
+  <p>To make a cell span more than one column, use the colsoan attribute.</p>
+
+    <table border="">
+
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+
+    </table>    
+
+
+  <h3>Cell that spans two rows</h3>  
+
+  <p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+    <table border="">
+        <tr>
+            <td><b>name</b></td>
+            <td>Jill</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2"><b>Phone</b></td>
+            <td>555-1234</td>
+        </tr>
+
+        <tr>
+            <td>555-8745</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

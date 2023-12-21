@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        이름 : <input type="text" name="uname"><br>
+        아이디 : <input type="text" name="uid"><br>
+        비밀번호 : <input type="password" name="upw"><br>
+        연락처 : <input type="text" name="uphone1" size="5"> -
+                <input type="text" name="uphone1" size="5"> -
+                <input type="text" name="uphone1" size="5"> <br>
+        사진 : <input type="file" name="upic"><br>
+        성별구분 : <input type="radio" name="gender" value="m">남,
+                  <input type="radio" name="gender" value="w">여
+        <hr>
+        사과배 선택 <input type="radio" name="fruit" value="apple">사과
+                   <input type="radio" name="fruit" value="pear">배<br>
+        <hr>
+        사용언어 <input type="checkbox" name="lan" value="kor">한글,
+                <input type="checkbox" name="lan" value="eng">영어,
+                <input type="checkbox" name="lan" value="jap">일어,
+                <input type="checkbox" name="lan" value="chi">중국어
+        <hr>
+                <input type="checkbox" name="tran" value="bike"> I have a bike  <br>
+                <input type="checkbox" name="tran" value="car"> I have a car <br>
+                <input type="checkbox" name="tran" value="boat"> I have a boat
+        <hr>
+        자기소개 : <textarea cols="20" rows="5"></textarea>
+        <hr>
+        국적 : <select>
+            <option>KOREA</option>
+            <option>USA</option>
+            <option>JAPAN</option>
+            <option>CHINA</option>
+        </select>
+        <hr>
+        좋아하는음식 : <select multiple="multiple">
+            <option>김치</option>
+            <option>불고기</option>
+            <option>파전</option>
+            <option>비빔밥</option>
+        </select>
+        <hr>
+        choose a car : <select>
+            <option>volvo</option>
+            <option>saab</option>
+            <option>German Cars</option>
+            <option>mercedes</option>
+        </select>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+    
+    
+    
+</body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        이름 : <input type="text" name="uname" /><br />
+        아이디 : <input type="text" name="uid" /><br />
+        비밀번호 : <input type="password" name="upw" /><br />
+        연락처 : <input type="text" name="uphone1" size="5" /> - 
+        <input type="text" name="uphone2" size="5" /> - 
+        <input type="text" name="uphone3" size="5" /><br />
+        사진 : <input type="file" name="upic"/> <br />
+        성별구분 : <input type="radio" name="gender" value="m">남, 
+        <input type="radio" name="gender" value="w">여 <br />
+        <hr>
+        사과배 선택 <input type="radio" name="fruit" value="m">사과, 
+        <input type="radio" name="fruit" value="w">배<br />
+        <hr>
+        사용언어 : <input type="checkbox" name="lan" value="kor" checked="checked" />한글, 
+        <input type="checkbox" name="lan" value="eng" />영어, 
+        <input type="checkbox" name="lan" value="jap" />일어, 
+        <input type="checkbox" name="lan" value="chi" />중국어<br />
+        <hr>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <hr>
+        자기소개 : <textarea rows="5" cols="20">간단하게 입력하세요.</textarea><br />
+        <hr>
+        국적 : <select>
+            <option>KOREA</option>
+            <option>USA</option>
+            <option>JAPAN</option>
+            <option>CHINA</option>   
+          </select><br />
+          <hr>
+          좋아하는음식 : <select multiple="multiple">
+            <option>김치</option>
+            <option>불고기</option>
+            <option>파전</option>
+            <option>비빔밥</option>
+        </select><br />
+        <hr>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+        </select>
+        <input type="submit"/>
+        <input type="reset"/>
+        
+    </form>
+</body>
+</html>
